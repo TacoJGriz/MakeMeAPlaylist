@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OneTextView">
+
+    <EditText
+        android:id="@+id/editView"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:height="48dp"
+        android:imeOptions="actionDone"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="textMultiLine" />
+
+</FrameLayout>

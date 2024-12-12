@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MakeMeAPlaylist</string>
+    <string name="text">Make Me A Playlist!</string>
+    <string-array name="dropdown">
+        <item>Based on a genre</item>
+        <item>Based on an artist</item>
+        <item>Based on a partial playlist</item>
+    </string-array>
+    <string name="hint">input text</string>
+    <string name="button_text">Generate Playlist!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

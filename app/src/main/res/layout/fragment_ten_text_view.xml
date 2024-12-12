@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TenTextView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/artist1"
+            android:layout_width="0dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:height="48dp"
+            android:ems="10"
+            android:hint="1. Artist"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toStartOf="@+id/songName1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/artist5"
+            android:layout_width="0dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:height="48dp"
+            android:ems="10"
+            android:hint="5. Artist"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toStartOf="@+id/songName5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/artist4" />
+
+        <EditText
+            android:id="@+id/songName5"
+            android:layout_width="204dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:height="48dp"
+            android:ems="10"
+            android:hint="Title"
+            android:imeOptions="actionDone"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/artist5"
+            app:layout_constraintTop_toBottomOf="@+id/songName4" />
+
+        <EditText
+            android:id="@+id/artist2"
+            android:layout_width="0dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:height="48dp"
+            android:ems="10"
+            android:hint="2. Artist"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toStartOf="@+id/songName2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/artist1" />
+
+        <EditText
+            android:id="@+id/songName2"
+            android:layout_width="204dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:height="48dp"
+            android:ems="10"
+            android:hint="Title"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/artist2"
+            app:layout_constraintTop_toBottomOf="@+id/songName1" />
+
+        <EditText
+            android:id="@+id/songName4"
+            android:layout_width="204dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:height="48dp"
+            android:ems="10"
+            android:hint="Title"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/artist4"
+            app:layout_constraintTop_toBottomOf="@+id/songName3" />
+
+        <EditText
+            android:id="@+id/artist3"
+            android:layout_width="0dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:height="48dp"
+            android:ems="10"
+            android:hint="3. Artist"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toStartOf="@+id/songName3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/artist2" />
+
+        <EditText
+            android:id="@+id/artist4"
+            android:layout_width="0dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:height="48dp"
+            android:ems="10"
+            android:hint="4. Artist"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toStartOf="@+id/songName4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/artist3" />
+
+        <EditText
+            android:id="@+id/songName3"
+            android:layout_width="204dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:height="48dp"
+            android:ems="10"
+            android:hint="Title"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/artist3"
+            app:layout_constraintTop_toBottomOf="@+id/songName2" />
+
+        <EditText
+            android:id="@+id/songName1"
+            android:layout_width="204dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:height="48dp"
+            android:ems="10"
+            android:hint="Title"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/artist1"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
